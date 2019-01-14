@@ -60,6 +60,8 @@
     <link rel="next" href="Service.html" />
     
     
+    <link rel="prev" href="../../Activity.md" />
+    
 
     </head>
     <body>
@@ -114,14 +116,14 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" >
+        <li class="chapter " data-level="1.2.1" data-path="../../Activity.md">
             
                 <span>
             
                     
                     四大组件
             
-                </span>
+                </a>
             
 
             
@@ -742,7 +744,54 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="activity">Activity</h1>
+                                <h2 id="&#x56DB;&#x5927;&#x7EC4;&#x4EF6;">&#x56DB;&#x5927;&#x7EC4;&#x4EF6;</h2>
+<h2 id="activity">Activity</h2>
+<h3 id="activity-&#x7684;&#x56DB;&#x79CD;&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x53CA;&#x4F7F;&#x7528;&#x573A;&#x666F;">Activity &#x7684;&#x56DB;&#x79CD;&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x53CA;&#x4F7F;&#x7528;&#x573A;&#x666F;</h3>
+<ul>
+<li><p>standard</p>
+<p>&#x6807;&#x51C6;&#x6A21;&#x5F0F;&#xFF0C;Activity &#x7684;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x3002;&#x6BCF;&#x6B21;&#x542F;&#x52A8;&#x4E00;&#x4E2A; Activity &#x65F6;&#x90FD;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0; Activity &#x7684;&#x5B9E;&#x4F8B;&#x5E76;&#x653E;&#x5165;&#x4EFB;&#x52A1;&#x6808;&#x4E2D;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x4E00;&#x822C;&#x573A;&#x666F;&#x90FD;&#x53EF;&#x4EE5;&#x3002;</p>
+</li>
+<li><p>singleTop</p>
+<p>&#x6808;&#x9876;&#x590D;&#x7528;&#x6A21;&#x5F0F;&#x3002;&#x5F53;&#x5728;&#x6B64;&#x6A21;&#x5F0F;&#x4E0B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A; Activity&#xFF0C;&#x5982;&#x679C;&#x4EFB;&#x52A1;&#x6808;&#x7684;&#x6808;&#x9876;&#x5DF2;&#x5B58;&#x5728;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x4E0D;&#x4F1A;&#x518D;&#x521B;&#x5EFA;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x540C;&#x65F6;&#x4F1A;&#x8C03;&#x7528; onNewIntent(Intent intent) &#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x65B9;&#x6CD5;&#x53C2;&#x6570; intent &#x4E2D;&#x53EF;&#x4EE5;&#x53D6;&#x51FA;&#x5F53;&#x524D;&#x8BF7;&#x6C42;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5E76;&#x4E14; onCreate&#x3001;onStart &#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x88AB;&#x8C03;&#x7528;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x7528;&#x4E8E;&#x767B;&#x5F55;&#x3001;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x7B49;&#x4E00;&#x4E9B;&#x4E0D;&#x5E0C;&#x671B;&#x56E0;&#x91CD;&#x590D;&#x70B9;&#x51FB;&#x51FA;&#x73B0;&#x591A;&#x4E2A;&#x7684;&#x9875;&#x9762;&#x3002;</p>
+</li>
+<li><p>singleTask</p>
+<p>&#x6808;&#x5185;&#x590D;&#x7528;&#x6A21;&#x5F0F;&#x3002;&#x5F53;&#x5728;&#x6B64;&#x6A21;&#x5F0F;&#x4E0B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A; Activity&#xFF0C;&#x5982;&#x679C;&#x4EFB;&#x52A1;&#x6808;&#x4E2D;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x4E0D;&#x4F1A;&#x518D;&#x521B;&#x5EFA;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x540C;&#x65F6;&#x4F1A;&#x5C06;&#x6808;&#x4E2D;&#x8BE5; Activity &#x5B9E;&#x4F8B;&#x4E0A;&#x9762;&#x6240;&#x6709; Activity &#x4F7F;&#x7528;&#x79FB;&#x9664;&#x5C06;&#x5176;&#x7F6E;&#x4E8E;&#x6808;&#x9876;&#xFF0C;&#x5E76;&#x8C03;&#x7528; onNewIntent(Intent intent) &#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x65B9;&#x6CD5;&#x53C2;&#x6570; intent &#x4E2D;&#x53EF;&#x4EE5;&#x53D6;&#x51FA;&#x5F53;&#x524D;&#x8BF7;&#x6C42;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x4E3B;&#x9875;&#x9762;</p>
+</li>
+<li><p>singleInstance</p>
+<p>&#x5355;&#x5B9E;&#x4F8B;&#x6A21;&#x5F0F;&#x3002;&#x5F53;&#x5728;&#x6B64;&#x6A21;&#x5F0F;&#x4E0B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A; Activity&#xFF0C;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#x5E76;&#x653E;&#x7F6E;&#x5728;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x65B0;&#x7684;&#x4EFB;&#x52A1;&#x6808;&#x3002;&#x5E76;&#x4E14;&#x7531;&#x4E8E;&#x6808;&#x5185;&#x590D;&#x7528;&#x673A;&#x5236;&#xFF0C;&#x5982;&#x679C;&#x6808;&#x4E2D;&#x5DF2;&#x5B58;&#x5728;&#x8BE5; Activity &#x5B9E;&#x4F8B;&#x5219;&#x4E0D;&#x4F1A;&#x518D;&#x521B;&#x5EFA;&#x8BE5; Activity &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x5E76;&#x4E14;&#x4F1A;&#x8C03;&#x7528; onNewIntent(Intent intent) &#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;Android &#x7CFB;&#x7EDF;&#x7684;&#x7535;&#x8BDD;&#x9875;&#x9762;&#x7B49;&#x591A;&#x5E94;&#x7528;&#x5171;&#x4EAB;&#x9875;&#x9762;&#x3002;</p>
+</li>
+</ul>
+<h3 id="&#x5982;&#x4F55;&#x8BBE;&#x7F6E;-activity-&#x7684;&#x542F;&#x52A8;&#x6A21;&#x5F0F;">&#x5982;&#x4F55;&#x8BBE;&#x7F6E; Activity &#x7684;&#x542F;&#x52A8;&#x6A21;&#x5F0F;</h3>
+<ul>
+<li><p>&#x901A;&#x8FC7; AndroidManifests &#x6587;&#x4EF6;</p>
+<pre><code class="lang-java">&lt;activity
+    android:name=<span class="hljs-string">&quot;.MainActivity&quot;</span>
+    android:launchMode=<span class="hljs-string">&quot;singleTask&quot;</span> /&gt;
+</code></pre>
+</li>
+<li><p>&#x901A;&#x8FC7; Intent &#x8BBE;&#x7F6E;&#x6807;&#x5FD7;&#x4F4D;&#xFF0C;&#x4F18;&#x5148;&#x7EA7;&#x9AD8;&#x4E8E; AndroidManifests</p>
+<pre><code class="lang-java">Intent intent = <span class="hljs-keyword">new</span> Intent(<span class="hljs-keyword">this</span>, MainActivity.class);
+intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+startActivity(intent);
+</code></pre>
+</li>
+</ul>
+<h3 id="&#x5E38;&#x7528;&#x6807;&#x8BB0;&#x4F4D;">&#x5E38;&#x7528;&#x6807;&#x8BB0;&#x4F4D;</h3>
+<ul>
+<li><p>FLAG_ACTIVITY_NEW_TASK</p>
+<p>&#x4F5C;&#x7528;&#x7B49;&#x540C;&#x4E8E; singleTask</p>
+</li>
+<li><p>FLAG_ACTIVITY_SINGLE_TOP</p>
+<p>&#x4F5C;&#x7528;&#x7B49;&#x540C;&#x4E8E; singleTop</p>
+</li>
+<li><p>FLAG_ACTIVITY_CLEAR_TOP</p>
+<p>&#x4E00;&#x822C;&#x914D;&#x5408; FLAG_ACTIVITY_NEW_TASK &#x4F7F;&#x7528;&#xFF0C;&#x6548;&#x679C;&#x7C7B;&#x4F3C;&#x4E8E; singleTask</p>
+</li>
+</ul>
 
                                 
                                 </section>
@@ -770,8 +819,12 @@
 
             
                 
+                <a href="../../Activity.md" class="navigation navigation-prev " aria-label="Previous page: 四大组件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="Service.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Service">
+                
+                <a href="Service.html" class="navigation navigation-next " aria-label="Next page: Service">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -782,7 +835,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Activity","level":"1.2.1.1","depth":3,"next":{"title":"Service","level":"1.2.1.2","depth":3,"path":"Android/四大组件/Activity/Service.md","ref":"Android/四大组件/Activity/Service.md","articles":[]},"previous":{"title":"四大组件","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"Activity","level":"1.2.1.1","depth":3,"path":"Android/四大组件/Activity/Activity.md","ref":"Android/四大组件/Activity/Activity.md","articles":[]},{"title":"Service","level":"1.2.1.2","depth":3,"path":"Android/四大组件/Activity/Service.md","ref":"Android/四大组件/Activity/Service.md","articles":[]},{"title":"ContentProvider","level":"1.2.1.3","depth":3,"path":"Android/四大组件/Activity/ContentProvider.md","ref":"Android/四大组件/Activity/ContentProvider.md","articles":[]},{"title":"广播","level":"1.2.1.4","depth":3,"path":"Android/四大组件/Activity/广播.md","ref":"Android/四大组件/Activity/广播.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Android/四大组件/Activity/Activity.md","mtime":"2019-01-14T14:51:30.117Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-14T14:52:44.679Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Activity","level":"1.2.1.1","depth":3,"next":{"title":"Service","level":"1.2.1.2","depth":3,"path":"Android/四大组件/Activity/Service.md","ref":"Android/四大组件/Activity/Service.md","articles":[]},"previous":{"title":"四大组件","level":"1.2.1","depth":2,"path":"Android/Activity.md","ref":"Android/Activity.md","articles":[{"title":"Activity","level":"1.2.1.1","depth":3,"path":"Android/四大组件/Activity/Activity.md","ref":"Android/四大组件/Activity/Activity.md","articles":[]},{"title":"Service","level":"1.2.1.2","depth":3,"path":"Android/四大组件/Activity/Service.md","ref":"Android/四大组件/Activity/Service.md","articles":[]},{"title":"ContentProvider","level":"1.2.1.3","depth":3,"path":"Android/四大组件/Activity/ContentProvider.md","ref":"Android/四大组件/Activity/ContentProvider.md","articles":[]},{"title":"广播","level":"1.2.1.4","depth":3,"path":"Android/四大组件/Activity/广播.md","ref":"Android/四大组件/Activity/广播.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Android/四大组件/Activity/Activity.md","mtime":"2019-01-14T16:18:27.626Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-14T16:15:10.490Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
