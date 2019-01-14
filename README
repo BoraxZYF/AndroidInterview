@@ -1,8 +1,8 @@
-Android
-四大组件
-Activity
-四中启动模式及使用场景
-Activity 生命周期
+#Android
+##四大组件
+###Activity
+####四中启动模式及使用场景
+####Activity 生命周期
 横竖屏切换的时候的生命周期
 Activity 与 Fragment 之间生命周期比较
 Activity 上有 Dialog 的时候按 Home 键的生命周期
