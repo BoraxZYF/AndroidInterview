@@ -24,7 +24,7 @@
     * [性能优化](Android/性能优化.md)
     * [适配](Android/适配.md)
     * [架构设计](Android/架构设计.m)
-    * [Java 虚拟机与 Dalvik / ART 虚拟机的区别](Android/Java 虚拟机与 Dalvik / ART 虚拟机的区别.md)
+    * [Java 虚拟机与 Dalvik、ART 虚拟机的区别](Android/Java 虚拟机与 Dalvik、ART 虚拟机的区别.md)
     * [ActivityThread、AMS、WMS 的工作原理](Android/ActivityThread、AMS、WMS 的工作原理.md)
     * [混合开发](Android/混合开发.md)
     * [插件化](Android/插件化.md)

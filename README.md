@@ -13,53 +13,50 @@
 ## 目录
 
 - [Android](Android/README.md)
-
-  - [四大组件](Android/四大组件/四大组件.md)
+  - 四大组件
     - [Activity](Android/四大组件/Activity/Activity.md)
     - [Service](Android/四大组件/Activity/Service.md)
     - [ContentProvider](Android/四大组件/Activity/ContentProvider.md)
     - [广播](Android/四大组件/Activity/广播.md)
+  - [Fragment](Android/Fragment.md)
   - [Context](Android/Context.md)
-  - [进程](Android/进程.md)
-  - [性能优化](Android/性能优化.md)
-  - [动画](Android/动画.md)
-  - [线程](Android/线程.md)
-  - [图片加载与Bitmap](Android/图片加载与Bitmap.md)
   - [View](Android/View.md)
+  - [动画](Android/动画.md)
   - [WebView](Android/WebView.md)
-  - [SparseArray](Android/SparseArray.md)
-  - [Java 虚拟机与 Dalvik / ART 虚拟机的区别](Android/Java 虚拟机与 Dalvik / ART 虚拟机的区别.md)
+  - [ListView 与 RecyclerView](Android/ListView 与 RecyclerView.md)
+  - [线程](Android/线程.md)
+  - [进程](Android/进程.md)
+  - [序列化](Android/序列化.md)
+  - [图片加载与Bitmap](Android/图片加载与Bitmap.md)
   - [内存泄漏与内存溢出](Android/内存泄漏与内存溢出.md)
   - [ANR](Android/ANR.md)
+  - [SparseArray](Android/SparseArray.md)
+  - [网络](Android/网络.md)
+  - [性能优化](Android/性能优化.md)
   - [适配](Android/适配.md)
   - [架构设计](Android/架构设计.m)
-  - [ListView 与 RecyclerView](Android/ListView 与 RecyclerView.md)
-  - [序列化](Android/序列化.md)
-  - [网络](Android/网络.md)
+  - [Java 虚拟机与 Dalvik、ART 虚拟机的区别](Android/Java 虚拟机与 Dalvik、ART 虚拟机的区别.md)
   - [ActivityThread、AMS、WMS 的工作原理](Android/ActivityThread、AMS、WMS 的工作原理.md)
   - [混合开发](Android/混合开发.md)
   - [插件化](Android/插件化.md)
   - [第三方库](Android/第三方库.md)
 
-  
+------
 
 - [Java](Java/REAM.md)
-
   - [Java基础](Java/Java基础.md)
   - [JVM](Java/JVM.md)
   - [数据结构](Java/数据结构.md)
-  - [算法](Java/算法.md)
   - [多线程](Java/多线程.md)
-  - [设计模式](Java/设计模式.md)
   - [引用类型的区别与使用场景](Java/应用类型的区别与使用场景.md)
   - [异常处理](Java/异常处理.md)
+  - [设计模式](Java/设计模式.md)
+  - [算法](Java/算法.md)
 
-  
+------
 
 - [网络](Http/README.md)
-
   - [网络分层](Http/网络分层.md)
-
   - [Http](Http/http.md)
   - [Https](Http/Https.md)
   - [TCP](Http/TCP.md)
