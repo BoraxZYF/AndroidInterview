@@ -1,12 +1,14 @@
 ## 介绍
 
-这是一个内容散、尽可能全的 Android 方面面试相关内容的整理，作为在准备面试的过程中的一个文档性的回忆和整理，放到 GitHub 上如果能帮到其他人那是最好的了😆😆😆
+这是一个内容散、尽可能全的 Android 方面面试相关内容的整理，作为在准备面试的过程中的一个文档性的回忆和整理，放到 ~~GitHub~~ 上如果能帮到其他人那是最好的了😆😆😆
 
 
 
 随意 Fork 随意 Star 随意转载表明出处就好如果有人喜欢的话 
 
-[GitHub 地址](https://github.com/BoraxZYF/AndroidInterview) 可以顺道看看其他项目😏
+~~[GitHub 地址](https://github.com/BoraxZYF/AndroidInterview) 可以顺道看看其他项目😏~~
+
+因为一些原因... 项目迁移到[马云](https://gitee.com/boraxxiong/AndroidInterview) ......
 
 
 
