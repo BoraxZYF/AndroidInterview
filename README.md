@@ -8,7 +8,7 @@
 
 ~~[GitHub 地址](https://github.com/BoraxZYF/AndroidInterview) 可以顺道看看其他项目😏~~
 
-因为一些原因... 项目迁移到 [马云](https://gitee.com/boraxxiong/AndroidInterview)  ......
+因为一些原因... 项目迁移到 [码云](https://gitee.com/boraxxiong/AndroidInterview)  ......
 
 
 
